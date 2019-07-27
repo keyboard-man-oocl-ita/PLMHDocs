@@ -18,7 +18,7 @@ car_license varchar(128) not noll
 clerk_id  varchar(255)  primary key,
 phone_number  varchar(16)  not null,
 password  varchar(255),
-name  varchar(255),
+name  varchar(255) not null,
 email  varchar(255),
 role  int  not null,
 status  int  not null,
