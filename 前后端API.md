@@ -235,8 +235,9 @@ data: {
 2. 默认值：
    1. Clerk：
       1. password自动生成
-      2. status：默认active
+      2. status：默认active:1, 0是inactive
    2. Order：
-      1. status：默认抢单中
+      1. status：默认抢单中0, 1已接单, 2已停车, 3已完成
 3. headers带token
 4. status发出去是int，回来是String（后台处理）
+5. role: 1p.b. 2p.m. 3admin
