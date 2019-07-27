@@ -31,7 +31,7 @@ managed_by  varchar(255)
 
 ```
 parking_lot_id  varchar(255)  primary key,
-name  varchar(255),
+name  varchar(255) not null,
 description  varchar(255),
 capacity  int  not null,
 latitude  float,
