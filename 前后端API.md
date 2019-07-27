@@ -114,13 +114,6 @@ RESPONSE
 List<Clerk>
 ```
 
-```
-/clerks/{id} 【GET】
-RESPONSE
-List<Clerk>
-```
-
-
 
 ## Orders API
 
